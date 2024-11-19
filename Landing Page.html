@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Ekonomi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #0080ff; color: white; padding: 15px; text-align: center; }
+        nav { background-color: #ffffff; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; }
+        section { padding: 20px; }
+        .content { display: flex; flex-wrap: wrap; }
+        .content article { flex: 1 1 45%; margin: 10px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .content article h3 { color: #2c3e50; }
+        
+        /* Carousel Styles */
+        .carousel {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .carousel-item {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .carousel img {
+            width: 100%;
+            display: block;
+        }
+        .carousel-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 10px;
+        }
+        .carousel-control.prev { left: 10px; }
+        .carousel-control.next { right: 10px; }
+ 
+        /* Navigation bar */
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+ 
+ </style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+    <footer style="background-color: #0080ff; color: white; padding: 15px; text-align: center;">
+        <p>&copy; 2024 Jaderick Adrian Namora Tjahja. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+            <a href="https://facebook.com" style="margin: 0 10px; color: white; text-decoration: none;">Facebook</a>
+            <a href="https://twitter.com" style="margin: 0 10px; color: white; text-decoration: none;">Twitter</a>
+            <a href="https://instagram.com" style="margin: 0 10px; color: white; text-decoration: none;">Instagram</a>
+        </div>
+    </footer>
+    
+    <!-- Header -->
+    <header>
+        <h1>Artikel Ekonomi</h1>
+        <p>Segala sesuatu tentang ekonomi</p>
+    </header>
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <div class="carousel-inner" id="carouselInner">
+            <div class="carousel-item active">
+                <img src="eko.jpg" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="eko2.jpg" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="eko3.jpg" alt="Image 3">
+            </div>
+        </div>
+        <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>Artikel Ekonomi</h1>
+        <p>Segala sesuatu tentang ekonomi</p>
+        <ul>
+            <li><a href="ekonomi1.html">Ekonomi</a></li>
+            <li><a href="#news">Politik</a></li>
+          </ul>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Politik</a>
+        <a href="#news">Berita Politik Terbaru</a>
+        <a href="#analysis">Kondisi Ekonomi pada Indonesia | Sistem Ekonomi</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Politik</h2>
+        <p>Ekonomi adalah sebuah ilmu yang mempelajari tentang perilaku manusia dalam menciptakan dan memenuhi kebutuhannya setiap hari. Dengan begitu, ekonomi punya kaitan yang erat dengan tindakan manusia dalam proses pengelolaan sumber daya, kegiatan produksi, serta distribusi.<br>Jika kalian ingin mengetahui lebih lanjut mengenai ekonomi, check halaman-halaman lainnya yang tertera di atas.
+        </p>
+    </section>
+
+    
+
+    <!-- News Section -->
+    <section id="news">
+        <h2>Berita Ekonomi Terbaru</h2>
+        <div class="content">
+            <article>
+                <h3>ESDM Tunggu Rencana Pengembangan Blok South Andaman dari Mubadala</h3>
+                <p>Untuk mengetahui lebih lanjut, silahkan check <a href="https://ekonomi.bisnis.com/read/20241104/44/1813196/esdm-tunggu-rencana-pengembangan-blok-south-andaman-dari-mubadala">Halaman ini</a></p>
+            </article>
+            <article>
+                <h3>Menkeu: Defisit RAPBN 2025 jaga keseimbangan program pemerintah baru</h3>
+                <p>Untuk mengetahui lebih lanjut, silahkan check <a href="https://www.antaranews.com/berita/4289359/menkeu-defisit-rapbn-2025-jaga-keseimbangan-program-pemerintah-baru">Halaman ini</a></p>
+            </article>
+        </div>
+    </section>
+    
+    <section>
+    <div class="w3-container">
+      
+        <div class="w3-card-4" style="width:50%">
+          <img src="Screenshot 2024-11-12 125139.png" alt="Alps" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>ESDM Tunggu Rencana Pengembangan Blok South Andaman dari Mubadala</p>
+          </div>
+        </div>
+      </div>
+    <br>
+    <div class="w3-container">
+      
+        <div class="w3-card-4" style="width:50%">
+          <img src="Screenshot 2024-11-12 124917.png" alt="Alps" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>Menkeu: Defisit RAPBN 2025 jaga keseimbangan program pemerintah baru</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Analysis Section -->
+    <section id="analysis">
+        <h2>Kondisi Ekonomi pada Indonesia | Sistem ekonomi</h2>
+        <div class="content">
+            <article>
+                <h3>Kondisi Ekonomi</h3>
+                <p>Jakarta, 6/8/2024 Kemenkeu – Menteri Keuangan (Menkeu) Sri Mulyani Indrawati menegaskan bahwa pemerintah akan memperhatikan faktor-faktor pendorong pertumbuhan ekonomi agar target pertumbuhan sebesar 5,2 persen dapat tercapai pada semester II-2024.
+
+                    <br><br>“Konsumsi, investasi, ekspor, impor yang kita akan perhatikan. Kita nanti di semester kedua ini yaitu kuartal ketiga dan keempat akan terus melihat faktor-faktor untuk menjaga agar pertumbuhan ekonomi bisa tetap terjaga pada tingkat antara 5,1 (persen) hingga bahkan kalau bisa mencapai 5,2 (persen),” kata Menkeu dalam keterangan pers di Kantor Presiden, Jakarta pada Senin (5/8).
+                    
+                    <br><br>Berdasarkan data Badan Pusat Statistik (BPS), pertumbuhan ekonomi Indonesia pada triwulan II-2024 tumbuh sebesar 5,05 persen (year on year/yoy) ditopang kuatnya permintaan domestik dan meningkatnya kinerja ekspor. Dari sisi pengeluaran, konsumsi rumah tangga sebagai kontributor utama tumbuh sebesar 4,93 persen (yoy) didorong periode libur hari besar keagamaan dan libur sekolah yang lebih panjang. 
+                    
+                    <br><br>Selain itu, daya beli masyarakat juga masih terjaga seiring dengan terkendalinya inflasi, kenaikan gaji ASN, pemberian gaji ke-13 dengan tunjangan kinerja 100 persen, serta penciptaan lapangan kerja baru yang lebih besar di awal tahun 2024 sebesar 3,55 juta. Sementara, konsumsi pemerintah tumbuh positif sebesar 1,42 persen terutama didukung oleh penyerapan belanja modal dan belanja barang yang cukup tinggi, masing-masing sebesar 39,5 persen dan 6,1 persen. 
+                    
+                    <br><br>Adapun pertumbuhan investasi atau Pembentukan Modal Tetap Bruto (PMTB) tercatat menguat sebesar 4,43 persen (yoy) ditopang oleh kinerja pertumbuhan investasi bangunan yang tumbuh 5,31 persen. Salah satu faktor pendorong peningkatan investasi yaitu penyerapan belanja modal pemerintah yang tinggi terkait penyelesaian berbagai Proyek Strategis Nasional (PSN), termasuk pembangunan Ibu Kota Nusantara (IKN).
+                    
+                    <br><br>Di sisi lain, kebijakan Pajak Pertambahan Nilai Ditanggung Pemerintah (PPN DTP) perumahan juga mendorong aktivitas konstruksi properti sektor swasta yang terus menunjukkan tren peningkatan. Aktivitas investasi swasta yang masih kuat juga terlihat dari kinerja realisasi Penanaman Modal Asing (PMA) dan Penanaman Modal Dalam Negeri (PMDN) yang tumbuh 22,49 persen, serta Purchasing Managers' Index (PMI) Manufaktur yang berada di zona ekspansi sepanjang triwulan II. 
+                    
+                    <br><br>Dari sisi produksi, semua sektor tumbuh positif pada triwulan II-2024. Sektor manufaktur tumbuh sebesar 3,95 persen (yoy). Industri-industri terkait hilirisasi, seperti industri pengolahan logam dasar dan industri barang galian bukan logam, juga tumbuh tinggi. Industri makanan dan minuman yang menjadi kontributor terbesar sektor manufaktur tumbuh 5,53 persen. 
+                    
+                    <br><br>Sektor utama lainnya yakni sektor perdagangan tumbuh sebesar 4,86 persen (yoy) sejalan dengan konsumsi masyarakat yang masih kuat. Sektor lainnya seperti pertanian, kehutanan, perikanan, pariwisata, transportasi dan pergudangan, serta penyediaan akomodasi dan makan minum juga tumbuh positif pada triwulan II-2024. Di sisi lain, sektor pertambangan mengalami perlambatan, terutama terkait dengan penurunan produksi migas dan batubara. 
+                    
+                    <br><br>Kinerja pertumbuhan ekonomi yang resilien dan konsisten di atas 5 persen memberikan dampak signifikan bagi kesejahteraan masyarakat. Angka pengangguran menurun dari 5,45 persen di tahun 2023 menjadi 4,82 persen tahun ini. Sementara, tingkat kemiskinan juga terus menurun dari 9,36 persen menjadi 9,03 persen. Penciptaan lapangan kerja di tahun 2024 juga mencapai 3,55 juta orang, meningkat dari sebelumnya sebesar 3,02 juta orang yang akan terus memperkuat daya beli masyarakat ke depan.
+                    
+                    <br><br>Pemerintah akan terus memantau risiko stagnasi perekonomian global yang diperkirakan masih berlanjut sepanjang tahun 2024. APBN 2024 akan terus dioptimalkan untuk menjaga stabilitas dan momentum pertumbuhan ekonomi sehingga target pertumbuhan sebesar 5,2 persen dapat tercapai. (dep/al)</p>
+            </article>
+            <article>
+                <h3>Sistem Ekonomi</h3>
+                <p>Mengenal Sistem Ekonomi
+                    <br>Berikut adalah penjelasan singkat tentang beberapa sistem ekonomi yang umum:
+                    
+                    <br><br>1. Ekonomi Pasar Bebas (Kapitalisme)
+                    Dalam sistem ekonomi pasar bebas, keputusan ekonomi diambil oleh individu dan perusahaan swasta berdasarkan pada kekuatan pasar.
+                    
+                    Faktor-faktor produksi, seperti tanah, tenaga kerja, dan modal dimiliki oleh sektor swasta, dan harga ditentukan oleh mekanisme pasar (penawaran dan permintaan).
+                    
+                    Pemerintah hanya memiliki peran minimal dalam mengatur ekonomi, umumnya terbatas pada menegakkan hukum dan menjaga stabilitas moneter. Contoh negara dengan sistem ekonomi kapitalisme yang kuat termasuk Amerika Serikat, Inggris, dan Singapura.
+                    
+                    <br><br>2. Ekonomi Terencana (Sosialisme/Komunisme)
+                    Dalam sistem ekonomi terencana, pemerintah memiliki kendali penuh atas faktor-faktor produksi dan mengatur alokasi sumber daya melalui perencanaan pusat. Tujuan utamanya adalah untuk mencapai kesetaraan sosial dan distribusi yang adil.
+                    
+                    Dalam model komunisme, pemerintah memiliki kendali total atas seluruh aspek ekonomi, sementara dalam sosialisme, masih ada ruang untuk kepemilikan pribadi dalam tingkat tertentu.
+                    
+                    Contoh negara dengan sistem ekonomi terencana adalah Uni Soviet (sebelum runtuhnya) dan Republik Rakyat Tiongkok (meskipun saat ini menerapkan sejumlah elemen kapitalisme).
+                    
+                    <br><br>3. Ekonomi Campuran
+                    Banyak negara di dunia menerapkan sistem ekonomi campuran, yang merupakan kombinasi dari elemen pasar dan perencanaan.
+                    
+                    Pemerintah memiliki peran dalam mengatur sektor-sektor kunci ekonomi dan menyediakan layanan publik, sementara sektor swasta juga memiliki kebebasan untuk beroperasi. Contoh negara dengan sistem ekonomi campuran adalah Jerman, Prancis, dan Kanada.
+                    
+                    <br><br>4. Ekonomi Tradisional
+                    Dalam sistem ekonomi tradisional, keputusan ekonomi didasarkan pada kebiasaan, tradisi, dan nilai-nilai budaya yang diwariskan dari generasi ke generasi.
+                    
+                    Pertanian dan pekerjaan lainnya seringkali merupakan kegiatan utama dalam ekonomi tradisional. Contoh dari ekonomi tradisional termasuk beberapa masyarakat adat di Afrika, Asia, dan Amerika Latin.</p></p>
+            </article>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jaderick Adrian Namora Tjahja. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.carousel-item');
+            if (index >= slides.length) currentSlide = 0;
+            else if (index < 0) currentSlide = slides.length - 1;
+            else currentSlide = index;
+            const offset = -currentSlide * 100;
+            document.getElementById('carouselInner').style.transform = 'translateX(' + offset + '%)';
+        }
+
+        function moveSlide(step) {
+            showSlide(currentSlide + step);
+        }
+
+        // Auto-slide every 3 seconds
+        setInterval(() => moveSlide(1), 3000);
+    </script>
+
+</body>
+</html>

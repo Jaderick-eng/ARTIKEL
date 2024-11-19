@@ -1,0 +1,88 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-image: url('images/politics.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(238, 0, 0);
+    text-align: center;
+    padding: 50px 0;
+}
+
+header .header-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header .header-content p {
+    font-size: 1.2em;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+main h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Ekonomi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #2c3e50; color: white; padding: 15px; text-align: center; }
+        nav { background-color: #34495e; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; }
+        section { padding: 20px; }
+        .content { display: flex; flex-wrap: wrap; }
+        .content article { flex: 1 1 45%; margin: 10px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .content article h3 { color: #2c3e50; }
+        
+        /* Carousel Styles */
+        .carousel {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .carousel-item {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .carousel img {
+            width: 100%;
+            display: block;
+        }
+        .carousel-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 10px;
+        }
+        .carousel-control.prev { left: 10px; }
+        .carousel-control.next { right: 10px; }
+/*Navbar*/
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ </style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+    <ul>
+        <li><a class="active" href="ekonomi1.html">Home</a></li>
+        <li><a href="EKONOMI.html">Ekonomi</a></li>
+        <li><a href="Politik.html">Politik</a></li>
+        <li><a href="Social.html">Sosial</a></li>
+      </ul>
+    
+    <!-- Header -->
+    <header>
+        <h1>Artikel Ekonomi,Sosial,Politik</h1>
+        <p>Segala sesuatu tentang ekonomi,sosial,politik</p>
+    </header>
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <div class="carousel-inner" id="carouselInner">
+            <div class="carousel-item active">
+                <img src="eko.jpg" alt="Image 1" height="1000px">
+            </div>
+            <div class="carousel-item">
+                <img src="eko2.jpg" alt="Image 2"  height="1000px">
+            </div>
+            <div class="carousel-item">
+                <img src="eko3.jpg" alt="Image 3"  height="1000px">
+            </div>
+        </div>
+        <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Ekonomi</a>
+        <a href="#politik">Politik</a>
+        <a href="#sosial">Sosial</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Ekonomi</h2>
+        <p>Ekonomi adalah sebuah ilmu yang mempelajari tentang perilaku manusia dalam menciptakan dan memenuhi kebutuhannya setiap hari. Dengan begitu, ekonomi punya kaitan yang erat dengan tindakan manusia dalam proses pengelolaan sumber daya, kegiatan produksi, serta distribusi.<br>Jika kalian ingin mengetahui lebih lanjut mengenai ekonomi, check halaman-halaman lainnya yang tertera di atas.
+            <br><br>Dilansir situs unida.gontor.ac.id, secara umum ada empat fungsi sistem ekonomi dalam suatu negara, yakni sebagai berikut:
+
+            <br>1.Sebagai penyedia dorongan untuk berproduksi.
+            <br>2.Berfungsi dalam mengkoordinasikan kegiatan individu dalam suatu perekonomian.
+            <br>3.Sebagai pengatur dalam pembagian hasil produksi di seluruh anggota masyarakat agar dapat terlaksana seperti yang diharapkan.
+            <br>4.Menciptakan mekanisme tertentu agar distribusi barang dan jasa berjalan dengan baik.
+            </p>
+    
+
+        <center><h2>Berita Ekonomi Terbaru</h2></center>
+        <div class="content">
+            <article>
+                <h3>ESDM Tunggu Rencana Pengembangan Blok South Andaman dari Mubadala</h3>
+                <p>Untuk mengetahui lebih lanjut, silahkan check <a href="https://ekonomi.bisnis.com/read/20241104/44/1813196/esdm-tunggu-rencana-pengembangan-blok-south-andaman-dari-mubadala">Halaman ini</a></p>
+                <div class="w3-container">
+                <div class="w3-card-4" style="width:50%">
+                    <img src="Screenshot 2024-11-12 125139.png" alt="Alps" style="width:100%">
+                    <div class="w3-container w3-center">
+                      <p>ESDM Tunggu Rencana Pengembangan Blok South Andaman dari Mubadala</p>
+                    </div>
+                  </div>
+                </div>
+            </article>
+            <article>
+                <h3>Menkeu: Defisit RAPBN 2025 jaga keseimbangan program pemerintah baru</h3>
+                <p>Untuk mengetahui lebih lanjut, silahkan check <a href="https://www.antaranews.com/berita/4289359/menkeu-defisit-rapbn-2025-jaga-keseimbangan-program-pemerintah-baru">Halaman ini</a></p>
+                <div class="w3-container">
+      
+                    <div class="w3-card-4" style="width:50%">
+                      <img src="Screenshot 2024-11-12 124917.png" alt="Alps" style="width:100%">
+                      <div class="w3-container w3-center">
+                        <p>Menkeu: Defisit RAPBN 2025 jaga keseimbangan program pemerintah baru</p>
+                      </div>
+                    </div>
+                  </div>
+            </article>
+        </div>
+    </section>
+    
+
+    <!-- Politik Section -->
+    <section id="politik">
+        <h2>Politik</h2>
+        <p>Politik adalah segala sesuatu yang berkaitan dengan perumusan dan implementasi kebijakan publik pemerintah. Berbagai tindakan dalam sistem politik (negara) yang meliputi proses penentuan tujuan sistem dan pelaksanaan tujuan tersebut.
+            <br><br>Dikutip dari presentasi berjudul Definisi dan Ruang Lingkup Politik dari Open Course Ware Universitas Pembangunan Jaya, tujuan politik adalah:
+
+            <br>1. Pengelolaan wacana, lembaga dan pelaksanaannya untuk kehidupan manusia.
+            <br>Selain itu, tujuan politik adalah:
+            
+            <br>2.Mengusahakan kekuasaan sehingga dapat melaksanakan demokrasi.
+            <br>3.Menerapkan kekuasaan sesuai aturan hukum.
+            <br>4.Melindungi hak dan memastikan kewajiban penyelenggaraan serta warga negara terlaksana dengan baik.
+            
+            <center><h2>Berita Politik Terbaru</h2></center>
+            <div class="content">
+                <article>
+                    <h3>Tentang Pesan Prabowo agar Pemerintahan Bersih dari Dendam Politik</h3>
+                    <p>Untuk mengetahui lebih lanjut, silahkan check <a href="https://news.detik.com/berita/d-7629663/tentang-pesan-prabowo-agar-pemerintahan-bersih-dari-dendam-politik">Halaman ini</a></p>
+                    <div class="w3-container">
+                    <div class="w3-card-4" style="width:50%">
+                        <img src="prabowo1.jpeg" alt="Alps" style="width:100%">
+                        
+                    <div class="w3-container w3-center">
+                          <p>Tentang Pesan Prabowo agar Pemerintahan Bersih dari Dendam Politik</p>
+                        </div>
+                      </div>
+                    </div>
+                </article>
+                <article>
+                    <h3>DPR Jadwalkan Fit and Proper Test Capim KPK 19-21 November</h3>
+                    <p>Untuk mengetahui lebih lanjut, silahkan check <a href="https://www.cnnindonesia.com/nasional/20241113203850-32-1166332/dpr-jadwalkan-fit-and-proper-test-capim-kpk-19-21-november">Halaman ini</a></p>
+                    <div class="w3-container">
+          
+                        <div class="w3-card-4" style="width:50%">
+                          <img src="uji.jpeg" alt="Alps" style="width:100%">
+                          <div class="w3-container w3-center">
+                            <p>DPR Jadwalkan Fit and Proper Test Capim KPK 19-21 November</p>
+                          </div>
+                        </div>
+                      </div>
+                </article>
+            </div>
+        </section>    
+          
+       <!-- Sosial Section -->
+    <section id="sosial">
+       <h3>Sosial</h3>
+       <p>Manusia disebut sebagai makhluk sosial dikarenakan manusia tidak mampu hidup sendiri serta membutuhkan orang lain. Dari definisi ini, maka dapat diketahui bahwa pengertian sosial memiliki kaitan erat dengan interaksi antar manusia dan lingkungan masyarakat.
+
+        Kata sosial berasal dari bahasa latin yaitu socius yang artinya adalah segala sesuatu yang lahir, tumbuh serta berkembang di dalam kehidupan secara bersama-sama. Istilah lain dari sosial ialah suka memperhatikan kepentingan umum, seperti suka menderma, menolong dan lain sebagainya.
+        
+        Menurut Kamus Besar Bahasa Indonesia (KBBI), sosial merupakan segala hal yang berhubungan dengan masyarakat. Sosial dapat diartikan secara luas, namun secara umum, pengertian sosial dapat diartikan sebagai suatu hal yang ada pada masyarakat ataupun sikap kemasyarakatan secara umum.
+        
+        Apabila dilihat dari pengertian di atas, maka dapat diketahui bahwa sosial sering kali berkaitan erat dengan interaksi sosial. Interaksi sosial sendiri merupakan subjek yang dipelajari dalam ilmu sosial.
+        </p>
+
+
+       <div class="content">
+        <article>
+            <h3>Mensos targetkan Kampus II Poltekesos Bandung dibangun tahun 2026</h3>
+            <p>Untuk mengetahui lebih lanjut, silahkan check <a href="https://www.antaranews.com/berita/4465593/mensos-targetkan-kampus-ii-poltekesos-bandung-dibangun-tahun-2026">Halaman ini</a></p>
+            <div class="w3-container">
+            <div class="w3-card-4" style="width:50%">
+                <img src="Screenshot 2024-11-14 170021.png" alt="Alps" style="width:100%">
+                
+            <div class="w3-container w3-center">
+                  <p>Mensos targetkan Kampus II Poltekesos Bandung dibangun tahun 2026</p>
+                </div>
+              </div>
+            </div>
+        </article>
+        <article>
+            <h3>Kunjungi Dinsos Surabaya, Cak Imin Cek Pengelolaan Data Penerima Bansos</h3>
+            <p>Untuk mengetahui lebih lanjut, silahkan check <a href="https://surabaya.kompas.com/read/2024/11/14/160325978/kunjungi-dinsos-surabaya-cak-imin-cek-pengelolaan-data-penerima-bansos">Halaman ini</a></p>
+            <div class="w3-container">
+  
+                <div class="w3-card-4" style="width:50%">
+                  <img src="SOS.jpeg" alt="Alps" style="width:100%">
+                  <div class="w3-container w3-center">
+                    <p>Kunjungi Dinsos Surabaya, Cak Imin Cek Pengelolaan Data Penerima Bansos</p>
+                  </div>
+                </div>
+              </div>
+        </article>
+    </div>
+</section>    
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jaderick Adrian Namora Tjahja. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.carousel-item');
+            if (index >= slides.length) currentSlide = 0;
+            else if (index < 0) currentSlide = slides.length - 1;
+            else currentSlide = index;
+            const offset = -currentSlide * 100;
+            document.getElementById('carouselInner').style.transform = 'translateX(' + offset + '%)';
+        }
+
+        function moveSlide(step) {
+            showSlide(currentSlide + step);
+        }
+
+        // Auto-slide every 3 seconds
+        setInterval(() => moveSlide(1), 3000);
+    </script>
+
+</body>
+</html>
+
